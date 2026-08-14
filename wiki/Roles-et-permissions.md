@@ -18,6 +18,7 @@ FeroceWork repose sur **4 rôles**. Chaque compte en possède exactement un, att
 | Tableau de bord | ✅ | ✅ | ✅ | ✅ |
 | Ses propres horaires et congés | ✅ | ✅ | ✅ | ✅ |
 | Livraisons, arrivages, réceptions, recherche SSCC | ❌ | ✅ | ✅ | ✅ |
+| Inventaires | ❌ | ✅ | ✅ | ✅ |
 | Incomplets | ❌ | ✅ | ✅ | ✅ |
 | Préparation de commandes | ❌ | ✅ | ✅ | ✅ |
 | Solder une caisse d'arrivage | ❌ | ❌ | ✅ | ✅ |

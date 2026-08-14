@@ -24,7 +24,7 @@ Particularité de cet outil : le fichier de commandes est **traité entièrement
 ## Bon à savoir
 
 - Le classement par famille se fait d'après le libellé des articles. Un article que l'application ne sait pas classer tombe volontairement dans **« autre »** — c'est fait exprès, pour qu'il saute aux yeux pendant la préparation plutôt que d'être rangé au mauvais endroit.
-- Les articles « pack à composer » sont ignorés en tant que tels : leur contenu réel figure déjà en lignes séparées dans l'export, il n'est donc compté qu'une fois.
+- Les articles « pack à composer » et les **Box** sont ignorés dans le picking : leur contenu réel figure déjà en lignes séparées dans l'export, il n'est donc compté qu'une fois.
 - Les quantités d'un même article sont additionnées toutes commandes confondues dans le picking.
 - Les familles vides sont masquées à l'écran mais conservées dans le PDF, pour que la mise en page reste identique d'une semaine à l'autre.
 - Les éventuels avertissements d'analyse (lignes ambiguës, valeurs inattendues) sont listés sous les boutons, sans bloquer la génération.

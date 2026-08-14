@@ -13,6 +13,7 @@ Cette documentation décrit le fonctionnement de l'application **du point de vue
 
 - **[Arrivages](Arrivages)** — enregistrer les caisses annoncées (stock déporté)
 - **[Réceptions](Receptions)** — scanner ce qui arrive réellement
+- **[Inventaires](Inventaires)** — compter le stock physique, carton par carton
 - **[Livraisons](Livraisons)** — vérifier une livraison annoncée et compter les écarts
 - **[Recherche SSCC](Recherche-SSCC)** — retrouver instantanément le parcours d'une caisse
 - **[Incomplets](Incomplets)** — suivre les sachets incomplets jusqu'à leur vente
