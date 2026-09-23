@@ -36,11 +36,11 @@ Un envoi **annulé** dans Shopify ne compte pas comme un suivi posé : la comman
 
 ### 3. Lancer l'envoi
 
-Recopiez le **nombre de commandes** annoncé, puis cliquez **Poser les suivis et notifier**. C'est définitif : Shopify ne permet pas d'annuler un mail déjà envoyé.
+Relisez l'aperçu, puis cliquez **Envoyer**. C'est définitif : Shopify ne permet pas d'annuler un mail déjà envoyé.
 
 ## L'envoi continue sans vous
 
-L'envoi se fait **sur le serveur**. Une fois lancé, vous pouvez **quitter la page, fermer l'onglet ou verrouiller le téléphone** : il continue jusqu'au bout. En revenant sur la page, le lot en cours est retrouvé avec sa barre d'avancement.
+L'envoi se fait **sur le serveur**. Une fois lancé, vous pouvez **quitter la page, fermer l'onglet ou verrouiller le téléphone** : il continue jusqu'au bout. En revenant sur la page, le lot en cours est affiché en tête avec sa barre d'avancement. S'il s'est terminé pendant votre absence, un message l'annonce — suivis posés, commandes en échec — pendant 24 heures, ou jusqu'à ce que vous le refermiez.
 
 - **Arrêter** interrompt le lot : ce qui est posé reste posé.
 - Après cinq échecs d'affilée, le lot **s'arrête de lui-même** — le problème est alors général (droit Shopify, connexion) — et la raison est affichée.
