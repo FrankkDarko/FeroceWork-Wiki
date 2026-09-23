@@ -14,10 +14,16 @@ Cette documentation décrit le fonctionnement de l'application **du point de vue
 - **[Arrivages](Arrivages)** — enregistrer les caisses annoncées (stock déporté)
 - **[Réceptions](Receptions)** — scanner ce qui arrive réellement
 - **[Inventaires](Inventaires)** — compter le stock physique, carton par carton
+- **[Stocks](Stocks)** — le plan des chambres froides, emplacement par emplacement
 - **[Livraisons](Livraisons)** — vérifier une livraison annoncée et compter les écarts
 - **[Recherche SSCC](Recherche-SSCC)** — retrouver instantanément le parcours d'une caisse
 - **[Incomplets](Incomplets)** — suivre les sachets incomplets jusqu'à leur vente
 - **[Préparation de commandes](Preparation-de-commandes)** — générer les documents de préparation et de picking
+
+## 🚚 OPS
+
+- **[Semaine](Semaine)** — ce qu'il faut préparer dans les trois semaines à venir, et le mail du dimanche
+- **[Suivis Chrono](Suivis-Chrono)** — reporter les numéros de suivi Chronopost dans Shopify
 
 ## 🕐 RH et équipe
 
