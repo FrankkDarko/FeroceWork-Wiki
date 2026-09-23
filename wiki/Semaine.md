@@ -23,7 +23,7 @@ Chaque ligne correspond à un jour de livraison, mais c'est le **jour de prépar
 - Une commande **BELUX** (Belgique, Luxembourg) se prépare **l'avant-veille** : le transport prend un jour de plus. Sa part est indiquée sur la ligne (« BELUX mardi 15 sept. · 3 cdes »), et les commandes concernées portent une pastille BELUX dans le détail.
 - Rien ne part le week-end : un départ qui tomberait un samedi ou un dimanche **recule au vendredi**. Une livraison du lundi se prépare donc le vendredi précédent.
 
-Le jour de livraison reste indiqué en petit sous le jour de préparation, pour recouper avec Shopify. Un jour **sans rien à préparer** apparaît grisé, sous son jour de livraison (« Samedi 26 sept. — pas de livraison »).
+Le jour de livraison reste indiqué en petit sous le jour de préparation, pour recouper avec Shopify. Un jour de semaine **sans rien à préparer** apparaît grisé. Les livraisons du samedi, du dimanche et du lundi, préparées le vendredi, n'apparaissent que lorsqu'il y a des commandes ; celle du lundi est alors marquée « sem. préc. », puisque son vendredi est celui de la semaine d'avant.
 
 ## Semaine en cours et semaines à venir
 
