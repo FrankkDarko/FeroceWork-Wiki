@@ -15,11 +15,15 @@ FeroceWork est une application web : rien à installer, elle s'utilise depuis un
 
 ## 2. Se repérer
 
-La navigation se fait par la **barre latérale** (ou le menu sur mobile), organisée en trois sections :
+La navigation se fait par la **barre latérale** (ou le menu sur mobile), organisée en catégories :
 
-- **Général** — visible par tout le monde : le tableau de bord, vos horaires, vos congés.
-- **Logistique** — visible selon votre rôle : livraisons, arrivages, réceptions, recherche SSCC, incomplets, préparation de commandes.
+- **Général** — visible par tout le monde : le tableau de bord, vos horaires, vos congés, l'aide.
+- **Logistique** — visible selon votre rôle : arrivages, réceptions, inventaires, stocks, recherche SSCC, incomplets.
+- **OPS** — ce qui sort : la semaine, la préparation de commandes, les étiquettes et les suivis Chronopost.
+- **Affiliation** — le suivi des affiliés, pour qui y a accès.
 - **Management / Admin** — réservée aux managers et administrateurs : horaires de l'équipe, demandes de congé, gestion des utilisateurs, journal d'activité.
+
+Chaque catégorie **se replie d'un clic sur son titre** : pratique pour raccourcir le menu quand on ne se sert que d'une partie. Le choix est gardé par appareil.
 
 Vous ne voyez que les entrées correspondant à votre rôle. Si une page vous manque, voyez la page [Rôles et permissions](Roles-et-permissions) ou parlez-en à un administrateur.
 
@@ -42,7 +46,8 @@ C'est votre page d'accueil. Elle affiche :
 4. Si un sachet est abîmé ou incomplet, déclarez-le dans les [Incomplets](Incomplets).
 
 **Vous préparez les commandes :**
-- Rendez-vous sur [Préparation de commandes](Preparation-de-commandes) pour générer le listing et le picking du jour à partir de l'export des commandes.
+- Regardez la [Semaine](Semaine) pour savoir ce qui arrive dans les prochains jours.
+- Le jour même, [Préparation de commandes](Preparation-de-commandes) charge les commandes depuis Shopify et génère le listing, le picking, le fichier Chronopost et les factures.
 
 **Vous saisissez simplement vos heures :**
 - Tout se passe sur la page [Horaires](Horaires). Pensez à régler votre **horaire type** une bonne fois pour toutes : vos journées se pré-rempliront ensuite automatiquement.

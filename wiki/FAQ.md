@@ -64,7 +64,7 @@ Le report n'est pas automatique : c'est un manager ou un administrateur qui déc
 ## Divers
 
 ### Où vont les données de l'outil Préparation de commandes ?
-Nulle part : le fichier est traité entièrement dans votre navigateur, rien n'est envoyé au serveur ni conservé. Voir [Préparation de commandes](Preparation-de-commandes).
+Nulle part. Avec l'onglet **Depuis Shopify**, les commandes sont lues à la demande et ne font que passer par le serveur, sans être stockées ; avec l'onglet **Depuis un export CSV**, le fichier est traité entièrement dans votre navigateur. Dans les deux cas, les PDF et le fichier Chronopost sont fabriqués dans le navigateur. Voir [Préparation de commandes](Preparation-de-commandes).
 
 ### Qui peut voir ce que j'ai fait dans l'application ?
 Les administrateurs disposent d'un [journal d'activité](Administration) qui trace toutes les actions (scans, comptages, validations, connexions…). C'est ce qui permet de reconstituer une réception en cas de litige.

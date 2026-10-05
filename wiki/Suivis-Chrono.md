@@ -34,6 +34,10 @@ Le bouton **Vérifier auprès de Shopify** relit chaque commande, **sans rien é
 
 Un envoi **annulé** dans Shopify ne compte pas comme un suivi posé : la commande repasse « à expédier ».
 
+### Commandes divisées
+
+Une commande qui mêle viande et vinaigre de cidre est divisée en deux expéditions ; le fichier Chronopost ne concerne que le carton viande. Le numéro de suivi n'est donc posé **que sur la partie viande** : la partie vinaigre reste ouverte, elle part en Colissimo depuis l'application Colissimo de Shopify. Un suivi déjà posé sur le vinaigre n'empêche pas de poser celui de la viande. Ces commandes sont signalées « divisée, partie viande seulement » à la vérification.
+
 ### 3. Lancer l'envoi
 
 Relisez l'aperçu, puis cliquez **Envoyer**. C'est définitif : Shopify ne permet pas d'annuler un mail déjà envoyé.

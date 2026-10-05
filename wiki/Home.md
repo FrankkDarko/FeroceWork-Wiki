@@ -15,14 +15,14 @@ Cette documentation décrit le fonctionnement de l'application **du point de vue
 - **[Réceptions](Receptions)** — scanner ce qui arrive réellement
 - **[Inventaires](Inventaires)** — compter le stock physique, carton par carton
 - **[Stocks](Stocks)** — le plan des chambres froides, emplacement par emplacement
-- **[Livraisons](Livraisons)** — vérifier une livraison annoncée et compter les écarts
+- **[Livraisons](Livraisons)** — vérifier une livraison annoncée (ancien flux, hors du menu depuis la 1.7.0)
 - **[Recherche SSCC](Recherche-SSCC)** — retrouver instantanément le parcours d'une caisse
 - **[Incomplets](Incomplets)** — suivre les sachets incomplets jusqu'à leur vente
-- **[Préparation de commandes](Preparation-de-commandes)** — générer les documents de préparation et de picking
 
 ## 🚚 OPS
 
-- **[Semaine](Semaine)** — ce qu'il faut préparer dans les trois semaines à venir, et le mail du dimanche
+- **[Semaine](Semaine)** — ce qu'il faut préparer dans les trois semaines à venir, jour de préparation par jour de préparation, et le mail du dimanche
+- **[Préparation de commandes](Preparation-de-commandes)** — les commandes du jour lues dans Shopify : listing, picking, fichier Chronopost, factures, vinaigre en Colissimo
 - **[Suivis Chrono](Suivis-Chrono)** — reporter les numéros de suivi Chronopost dans Shopify
 
 ## 🕐 RH et équipe

@@ -6,6 +6,8 @@
 
 Une **livraison** sert à vérifier une livraison **annoncée** : on importe le fichier de ce qui est prévu (lignes article × éleveur × lot avec les quantités attendues), puis on compte ce qui arrive réellement — au scan ou à la main. L'application calcule les écarts en continu et produit un rapport final.
 
+> ⚠️ Depuis la version 1.7.0, **Livraisons n'apparaît plus dans le menu** : l'ancien flux ne sert plus. Rien n'a été supprimé — la page reste accessible par son adresse (`/deliveries`), et les arrivages, réceptions et inventaires qui s'appuient dessus fonctionnent comme avant.
+
 > 💡 C'est le flux « tout-en-un » historique de l'application. Pour le circuit en deux temps (annonce d'un côté, constat de l'autre), voyez [Arrivages](Arrivages) et [Réceptions](Receptions).
 
 ## Créer une livraison

@@ -17,10 +17,11 @@ Au fil du temps, FeroceWork s'est enrichi d'un volet RH complet : saisie des hor
 ### Logistique
 - **Arrivages** — enregistrement des lots de caisses annoncées (stock déporté), qui deviennent scannables le jour où les palettes arrivent physiquement.
 - **Réceptions** — constat de ce qui arrive réellement : scan global des caisses (codes SSCC), rattachement automatique à leur arrivage d'origine, détection des doublons et des codes inconnus.
-- **Livraisons** — vérification d'une livraison annoncée : import du fichier attendu, comptage par scan ou saisie manuelle (boutons +1/−1, calculatrice intégrée), validation ligne par ligne, clôture avec rapport d'écarts.
+- **Livraisons** (ancien flux, hors du menu) — vérification d'une livraison annoncée : import du fichier attendu, comptage par scan ou saisie manuelle (boutons +1/−1, calculatrice intégrée), validation ligne par ligne, clôture avec rapport d'écarts.
 - **Recherche SSCC** — un scan suffit pour répondre à « où est ce carton ? » : statut, parcours complet et contenu détaillé de n'importe quelle caisse.
 - **Incomplets** — suivi des sachets incomplets constatés en réception, de leur mise en stock jusqu'à leur rattachement à une commande.
-- **Préparation de commandes** — transformation d'un export de commandes en documents de terrain imprimables (listing de préparation et picking par famille de produits), avec traitement 100 % local dans le navigateur.
+- **Préparation de commandes** — les commandes du jour lues dans Shopify (ou un export CSV), transformées en documents de terrain : listing, picking par famille de produits, fichier d'étiquettes Chronopost et factures à code-barres, une page par commande.
+- **Semaine** — ce qu'il faut préparer dans les trois semaines à venir, jour de préparation par jour de préparation, avec un récapitulatif par mail chaque dimanche.
 - **Exports** — CSV, Excel et PDF sur les livraisons et réceptions, avec options de mise en page (regroupement, tri) mémorisées par utilisateur.
 
 ### RH et équipe
