@@ -8,7 +8,14 @@ Un **arrivage** enregistre un lot de caisses **annoncées** mais pas encore arri
 
 Un arrivage ne se « compte » pas : il se **vide** au fil des réceptions.
 
-## Créer un arrivage
+## Arrivages reçus par mail : créés automatiquement
+
+Le fournisseur envoie chaque arrivage par mail, en deux fichiers : les colis (avec les codes SSCC) et les lignes détaillées. La boîte est relevée chaque matin, et à chaque ouverture des pages Arrivages ; depuis la version 1.8.0, **la relève crée l'arrivage elle-même**, sans validation à la main. Il apparaît dans la liste « par relève automatique », avec pour référence le nom du fichier reçu.
+
+- Un fichier de colis attend son fichier de lignes quelques heures (les deux mails partent coup sur coup, mais pas toujours dans la même relève). Passé ce délai, l'arrivage est créé avec les seuls colis.
+- La page **Arrivages → Par mail** ne garde que ce qui n'a pas pu être importé — fichier illisible, codes SSCC tous déjà connus — ou un fichier de colis qui attend encore ses lignes. On l'y importe ou on le rejette à la main, comme avant.
+
+## Créer un arrivage à la main
 
 1. Depuis la liste des arrivages, cliquez sur **Nouvel arrivage**.
 2. Renseignez une **référence** (obligatoire), et si vous le souhaitez un fournisseur et une date.
