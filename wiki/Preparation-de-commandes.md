@@ -37,6 +37,7 @@ Elles reprennent la facture Shopify rubrique pour rubrique : adresses, lignes, r
 - Le **code-barres** du numéro de commande est en tête de page, à scanner au moment de fermer le carton (il encode les chiffres du numéro, sans le « # »).
 - Quand la commande porte un tag **« livret … »** (livret huile/suif, livret cuisson…), le livret à glisser dans le carton est rappelé **juste sous la ligne de la box**, sans prix.
 - Une facture tient **toujours sur une page** : quand une commande est longue, ses lignes d'articles rétrécissent pour tenir.
+- Le **pied de page** porte le numéro de page sur le total du PDF (« page 12 / 80 ») : une pile tombée se remet dans l'ordre du listing sans relire les numéros de commande. Si une commande très longue déborde malgré tout sur deux feuilles, le pied de page le signale (« facture 1/2 »).
 
 **Mise en page des factures** (panneau sous les boutons) : par défaut, les articles suivent l'ordre de la commande. En option, ils sont **séparés par type** comme sur le picking, dans l'ordre de types qu'on choisit, et triés par ordre alphabétique si on le souhaite. La ligne « Box » reste toujours en tête. **Enregistrer pour tout le monde** garde le réglage pour toute l'équipe et les jours suivants. Seul l'ordre change : aucune ligne n'est masquée.
 
@@ -54,6 +55,8 @@ La section **Vinaigre de cidre — Colissimo** liste les parties vinaigre à env
 ### Box générées sans leurs lignes
 
 Il arrive qu'une commande n'ait que la ligne « Box M », sa composition n'étant écrite que dans le détail de la box (« Le Haché Féroce : x2 »). FeroceWork reprend alors la composition de ce détail — dans le listing, le picking, le fichier Chronopost et la facture (où chaque pièce porte la mention « Composition de la box », à 0 €). Ces commandes sont signalées en orange : **à vérifier au moment de monter le carton**.
+
+La composition n'est reprise que si **aucune pièce à 0 €** ne figure sur la commande. Une box modifiée dans Shopify — pièces remplacées par d'autres — garde ses pièces réelles, sans y ajouter celles d'origine.
 
 ### Confidentialité
 
