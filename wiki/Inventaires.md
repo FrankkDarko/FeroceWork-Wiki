@@ -33,7 +33,9 @@ Selon la caisse scannée :
 | Caisse **déjà comptée** dans cet inventaire | ⛔ Refus, avec la date et l'opérateur du premier comptage. |
 | Code SSCC **inconnu** de l'application | ✏️ La **saisie manuelle** s'ouvre pré-remplie : le carton est compté quand même, marqué « hors base ». |
 
-> 💡 Comme pour les réceptions : un même code relu par erreur dans la foulée est ignoré, et les scans en rafale sont mis en file d'attente — rien ne se perd.
+Les signaux sont les mêmes que pour les réceptions : 🟢 bip aigu et flash vert quand un comptage est validé, 🟠 deux notes et flash orange quand la saisie manuelle s'ouvre (carton hors base), 🔴 bip grave et flash rouge quand le carton n'est **pas** compté (déjà compté, erreur).
+
+> 💡 Comme pour les réceptions : un même code relu par erreur dans la foulée est ignoré, le champ reste actif pendant l'envoi, et les scans en rafale partent dans l'ordre avec un compteur « N scans en attente d'envoi » — rien ne se perd.
 
 ## La saisie manuelle
 

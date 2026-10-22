@@ -29,7 +29,17 @@ Selon la caisse scannée, l'application réagit différemment :
 | Caisse « mixte » (plusieurs articles) ou quantité inhabituellement élevée | ⚠️ Fenêtre de confirmation article par article, avec possibilité de corriger la quantité réellement comptée. |
 | Code SSCC inconnu | ⛔ Refus, message explicite. |
 
-> 💡 Un même code relu par erreur dans la foulée est ignoré, et les scans qui arrivent pendant qu'un autre est en cours sont mis en file d'attente : la douchette peut aller plus vite que le réseau, rien ne se perd.
+Chaque scan se confirme **au son et à la couleur**, sans avoir à lire l'écran :
+
+| Signal | Signification |
+|---|---|
+| 🟢 Bip aigu + flash vert | La caisse est prise en compte. |
+| 🟠 Deux notes + flash orange | Une action est demandée : la fenêtre de confirmation s'ouvre. |
+| 🔴 Bip grave + flash rouge | La caisse n'est **pas** prise en compte (inconnue, déjà reçue, erreur) : mettez-la de côté ou rescannez-la. |
+
+Sur téléphone, chaque cas vibre aussi différemment.
+
+> 💡 Un même code relu par erreur dans la foulée est ignoré. Le champ de scan reste actif pendant l'envoi d'une caisse : il se vide dès la lecture et accepte aussitôt la suivante. Les caisses lues pendant un envoi partent dans l'ordre, et un compteur « N scans en attente d'envoi » s'affiche sous le champ tant qu'il en reste : la douchette peut aller plus vite que le réseau, rien ne se perd.
 
 ## Suivre la réception
 
