@@ -63,6 +63,9 @@ Le report n'est pas automatique : c'est un manager ou un administrateur qui déc
 
 ## Divers
 
+### Un bandeau « Nouvelle version de FeroceWork » s'affiche en bas de l'écran.
+L'application vient d'être mise à jour. Appuyez sur **Recharger** dès que vous avez un instant : l'écran ouvert depuis le matin est l'ancienne version, et ses échanges avec le serveur peuvent échouer. Recharger ne fait perdre aucun scan, même ceux faits hors ligne qui attendent d'être envoyés.
+
 ### Où vont les données de l'outil Préparation de commandes ?
 Nulle part. Avec l'onglet **Depuis Shopify**, les commandes sont lues à la demande et ne font que passer par le serveur, sans être stockées ; avec l'onglet **Depuis un export CSV**, le fichier est traité entièrement dans votre navigateur. Dans les deux cas, les PDF et le fichier Chronopost sont fabriqués dans le navigateur. Voir [Préparation de commandes](Preparation-de-commandes).
 

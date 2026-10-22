@@ -43,6 +43,17 @@ Sur téléphone, chaque cas vibre aussi différemment.
 
 > 💡 Un même code relu dans la foulée (moins d'une seconde) n'est compté qu'une fois, avec le message « Déjà scanné à l'instant ». Le champ de scan reste actif pendant l'envoi d'une caisse : il se vide dès la lecture et accepte aussitôt la suivante. Les caisses lues pendant un envoi partent dans l'ordre, et un compteur « N scans en attente d'envoi » s'affiche sous le champ tant qu'il en reste : la douchette peut aller plus vite que le réseau, rien ne se perd.
 
+### Quand le wifi coupe (chambre froide)
+
+Continuez à scanner. À l'ouverture de la réception, le téléphone a chargé la liste des caisses attendues : si le serveur ne répond plus, chaque caisse est jugée **sur le téléphone**, avec les mêmes règles et les mêmes signaux (bip, couleur, fenêtre de confirmation pour un colis mixte ou une quantité à vérifier).
+
+- Un bandeau orange **« Hors ligne — N scans gardés sur le téléphone »** indique combien de caisses attendent d'être envoyées.
+- Les scans sont gardés même si la page se recharge ou si le téléphone s'éteint.
+- Au retour du réseau, ils partent **tout seuls**, avec leur heure réelle, et un message confirme l'envoi. Ils partent même si vous avez quitté l'écran de la réception, tant que vous êtes connecté avec le même compte.
+- Cas rare : si un collègue a reçu la même caisse dans une **autre** réception pendant la coupure, un message « Scan hors ligne refusé » nomme la caisse à vérifier.
+
+> ⚠️ Si la session a expiré pendant la coupure, le bandeau le dit : reconnectez-vous avec **le même compte**, les scans partiront ensuite.
+
 ## Suivre la réception
 
 La fiche affiche en continu :
