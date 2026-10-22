@@ -30,12 +30,12 @@ Selon la caisse scannée :
 |---|---|
 | Caisse connue, pas encore comptée dans cet inventaire | ✅ Fenêtre de validation avec la quantité proposée. |
 | Caisse « mixte » (plusieurs articles) | ⚠️ Validation article par article, dans la même fenêtre. |
-| Caisse **déjà comptée** dans cet inventaire | ⛔ Refus, avec la date et l'opérateur du premier comptage. |
+| Caisse **déjà comptée** dans cet inventaire | ℹ️ Rien à faire : elle n'est pas recomptée. Le message rappelle la date et l'opérateur du premier comptage. |
 | Code SSCC **inconnu** de l'application | ✏️ La **saisie manuelle** s'ouvre pré-remplie : le carton est compté quand même, marqué « hors base ». |
 
-Les signaux sont les mêmes que pour les réceptions : 🟢 bip aigu et flash vert quand un comptage est validé, 🟠 deux notes et flash orange quand la saisie manuelle s'ouvre (carton hors base), 🔴 bip grave et flash rouge quand le carton n'est **pas** compté (déjà compté, erreur).
+Les signaux sont les mêmes que pour les réceptions : 🟢 bip aigu et flash vert quand un comptage est validé, 🟠 deux notes et flash orange quand la saisie manuelle s'ouvre (carton hors base), 🔴 bip grave et flash rouge quand le carton n'est **pas** compté (erreur), 🔵 deux petits « tic » et flash bleu léger quand il n'y a rien à faire (carton déjà compté dans cet inventaire, ou relu à l'instant).
 
-> 💡 Comme pour les réceptions : un même code relu par erreur dans la foulée est ignoré, le champ reste actif pendant l'envoi, et les scans en rafale partent dans l'ordre avec un compteur « N scans en attente d'envoi » — rien ne se perd.
+> 💡 Comme pour les réceptions : un même code relu dans la foulée (moins d'une seconde) n'est lu qu'une fois, avec le message « Déjà scanné à l'instant », le champ reste actif pendant l'envoi, et les scans en rafale partent dans l'ordre avec un compteur « N scans en attente d'envoi » — rien ne se perd.
 
 ## La saisie manuelle
 

@@ -25,6 +25,7 @@ Selon la caisse scannée, l'application réagit différemment :
 | Caisse d'un arrivage, jamais reçue | ✅ Rattachement automatique, bandeau vert de confirmation. |
 | Caisse de l'ancien flux, jamais scannée | ✅ **Transfert automatique**, signalé par une pastille « Transféré » avec la référence d'origine. |
 | Caisse déjà scannée dans une **autre** réception | ⛔ Refus « déjà reçu », avec la réception, la date et l'opérateur concernés. |
+| Caisse déjà scannée dans **cette** réception | ℹ️ Rien à faire : elle n'est pas recomptée. |
 | Caisse de l'ancien flux déjà pointée à l'époque | ⛔ Refus, sauf **validation explicite d'un manager** dans une fenêtre de confirmation. |
 | Caisse « mixte » (plusieurs articles) ou quantité inhabituellement élevée | ⚠️ Fenêtre de confirmation article par article, avec possibilité de corriger la quantité réellement comptée. |
 | Code SSCC inconnu | ⛔ Refus, message explicite. |
@@ -35,11 +36,12 @@ Chaque scan se confirme **au son et à la couleur**, sans avoir à lire l'écran
 |---|---|
 | 🟢 Bip aigu + flash vert | La caisse est prise en compte. |
 | 🟠 Deux notes + flash orange | Une action est demandée : la fenêtre de confirmation s'ouvre. |
-| 🔴 Bip grave + flash rouge | La caisse n'est **pas** prise en compte (inconnue, déjà reçue, erreur) : mettez-la de côté ou rescannez-la. |
+| 🔴 Bip grave + flash rouge | La caisse n'est **pas** prise en compte (inconnue, déjà reçue dans une **autre** réception, erreur) : mettez-la de côté ou rescannez-la. |
+| 🔵 Deux petits « tic » + flash bleu léger | Rien à faire : la caisse est déjà comptée dans **cette** réception, ou vient d'être scannée à l'instant. |
 
 Sur téléphone, chaque cas vibre aussi différemment.
 
-> 💡 Un même code relu par erreur dans la foulée est ignoré. Le champ de scan reste actif pendant l'envoi d'une caisse : il se vide dès la lecture et accepte aussitôt la suivante. Les caisses lues pendant un envoi partent dans l'ordre, et un compteur « N scans en attente d'envoi » s'affiche sous le champ tant qu'il en reste : la douchette peut aller plus vite que le réseau, rien ne se perd.
+> 💡 Un même code relu dans la foulée (moins d'une seconde) n'est compté qu'une fois, avec le message « Déjà scanné à l'instant ». Le champ de scan reste actif pendant l'envoi d'une caisse : il se vide dès la lecture et accepte aussitôt la suivante. Les caisses lues pendant un envoi partent dans l'ordre, et un compteur « N scans en attente d'envoi » s'affiche sous le champ tant qu'il en reste : la douchette peut aller plus vite que le réseau, rien ne se perd.
 
 ## Suivre la réception
 
